@@ -26,7 +26,7 @@
 							if (empty($embed)) {
 								# code...
 							} else {
-								echo "<iframe width=\"560\" height=\"315\" src=\" " . $show_video['embed'] . " \" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>";
+								echo "<iframe width=\"560\" height=\"315\" src=\"" . $show_video['embed'] . "\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>";
 							}
 							?>
 							<?php echo $show_video['keterangan'] ?>
